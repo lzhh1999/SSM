@@ -58,7 +58,7 @@ public class UserController {
         try {
             userService.addUser(user1);
             model.addAttribute("msg", "注册成功请登录");
-            return "login";
+            return "success";
         } catch (Exception e) {
             model.addAttribute("msg", "用户名已存在");
             return "register";
