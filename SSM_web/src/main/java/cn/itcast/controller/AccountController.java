@@ -56,7 +56,7 @@ public class AccountController {
         Account account = accountService.findAccountByUsername(username);
         if (account != null) {
             accountService.deteleAccount(username);
-            System.out.println("username" + username);
+            System.out.println("username=" + username);
             model.addAttribute("msg", "成功删除数据");
             return "index";
         }
