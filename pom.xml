@@ -16,7 +16,7 @@
     <!--统一管理jar包版本-->
     <properties>
         <spring.version>5.0.2.RELEASE</spring.version>
-        <springmvc.version>5.0.2.RELEASE</springmvc.version>
+        <springmvc.version>5.2.20.RELEASE</springmvc.version>
         <mybatis.version>3.4.5</mybatis.version>
         <slf4j.version>1.7.7</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
